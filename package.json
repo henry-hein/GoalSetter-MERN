@@ -1,0 +1,29 @@
+{
+  "name": "goalsetter-mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henry-hein/GoalSetter-MERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henry-hein/GoalSetter-MERN/issues"
+  },
+  "homepage": "https://github.com/henry-hein/GoalSetter-MERN#readme",
+  "description": "",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
